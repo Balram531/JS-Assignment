@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var option={weekday:'long'};
+	var today=new Date();
+
+var dateFormat=today.getHours() + ":" + today.getMinutes()+":"+today.getSeconds();
+document.write("Today is :\n" + today.toLocaleString("en-US",option));
+document.write("\n");
+document.write("Current Time is : "+dateFormat);
+</script>
+</body>
+</html>
